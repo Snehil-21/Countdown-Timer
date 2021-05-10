@@ -1,0 +1,7 @@
+.format {
+    display: inline;
+}
+
+.hours,.minutes,.seconds {
+    display: inline-block;
+}
