@@ -8,30 +8,25 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <section class="middle-section">
-        <article>
-            <img src="./assets/announcement.jpg" alt="Announcements Image">
-        </article>
-        <article class="intern-announcement">
-            <h2>New Announcements In..</h2>
-        </article>
-        <div class="countdown">
-            <div class="format">
-                <h4 class="hours"></h4>
-                <span>Hours</span>
-            </div>
-            
-            <div class="format">
-                <h4 class="minutes"></h4>
-                <span>Minutes</span>
-            </div>
-
-            <div class="format">
-                <h4 class="seconds"></h4>
-                <span>Seconds</span>
-            </div>
-        </div>
-    </section>
+    <div class="main-content">
+        <table>
+            <tr>
+                <td class="hr cards"></td>
+                <td></td>
+                <td class="min cards"></td>
+                <td></td>
+                <td class="sec cards"></td>
+            </tr>
+    
+            <tr>
+                <td class="cards">Hours</td>
+                <td></td>
+                <td class="cards">Minutes</td>
+                <td></td>
+                <td class="cards">Seconds</td>
+            </tr>
+        </table>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
