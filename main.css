@@ -27,3 +27,31 @@ td {
     background-color: lavenderblush;
     opacity: 0.7;
 }
+
+.hr, .min, .sec {
+    animation-name: turnaround; 
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: linear;
+    animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+@keyframes turnaround {
+    from {transform: rotateX(0deg)}
+    to {transform: rotateX(360deg)}
+
+    from {background-color: black}
+    to {background-color: lavenderblush} 
+
+    from {color: white} 
+    to {color: black}
+
+    from {opacity: 100%}
+    to {opacity: 50%}
+    
+    from {background-color: lavenderblush}
+    to {background-color: black}
+
+    from {color: black} 
+    to {color: white}   
+}
